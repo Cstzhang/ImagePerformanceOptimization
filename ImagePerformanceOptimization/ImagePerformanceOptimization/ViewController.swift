@@ -16,8 +16,11 @@ class ViewController: UIViewController {
         let iv  = UIImageView(frame: rect)
         iv.center = view.center
         view.addSubview(iv)
-        let image = #imageLiteral(resourceName: "avatar_default_big.png")
-        iv.image =  avatarImage(image: image, size: rect.size,backColor: view.backgroundColor)
+//        let image = #imageLiteral(resourceName: "avatar_default_big.png")
+      
+        let image = #imageLiteral(resourceName: "cat.jpeg")
+        
+        iv.image = avatarImage(image: image, size: rect.size,backColor: view.backgroundColor)
     }
    
     
@@ -35,7 +38,7 @@ class ViewController: UIViewController {
         let rect  = CGRect(origin: CGPoint(), size: size)
         /*
          1>size
-         2>不透明 (混合)
+         2>不透明 (混合) png图片支持透明 jpg 图形不支持透明
          3>屏幕分辨率 如果不指定，默认使用1.0的分辨率（图片质量不好）
            指定0，会选择当前设备屏幕的分辨率
          */
