@@ -12,11 +12,11 @@
 		6D3AC4F81FAAF3E700C0BDE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3AC4F61FAAF3E700C0BDE2 /* Main.storyboard */; };
 		6D3AC4FA1FAAF3E700C0BDE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3AC4F91FAAF3E700C0BDE2 /* Assets.xcassets */; };
 		6D3AC4FD1FAAF3E700C0BDE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3AC4FB1FAAF3E700C0BDE2 /* LaunchScreen.storyboard */; };
-		6D3AC50A1FAAF62000C0BDE2 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3AC5071FAAF62000C0BDE2 /* icon@2x.png */; };
-		6D3AC50B1FAAF62000C0BDE2 /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3AC5081FAAF62000C0BDE2 /* icon@3x.png */; };
 		6D3AC50D1FAAF6C900C0BDE2 /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3AC50C1FAAF6C900C0BDE2 /* cat.jpeg */; };
 		6D3AC5101FAAF82200C0BDE2 /* avatar_vip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3AC50E1FAAF82100C0BDE2 /* avatar_vip@2x.png */; };
 		6D3AC5111FAAF82200C0BDE2 /* avatar_vip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3AC50F1FAAF82100C0BDE2 /* avatar_vip@3x.png */; };
+		6D3AC5141FAAFA3A00C0BDE2 /* avatar_default_big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3AC5121FAAFA3900C0BDE2 /* avatar_default_big@2x.png */; };
+		6D3AC5151FAAFA3A00C0BDE2 /* avatar_default_big@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3AC5131FAAFA3A00C0BDE2 /* avatar_default_big@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +27,11 @@
 		6D3AC4F91FAAF3E700C0BDE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D3AC4FC1FAAF3E700C0BDE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D3AC4FE1FAAF3E700C0BDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D3AC5071FAAF62000C0BDE2 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		6D3AC5081FAAF62000C0BDE2 /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
 		6D3AC50C1FAAF6C900C0BDE2 /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpeg; sourceTree = "<group>"; };
 		6D3AC50E1FAAF82100C0BDE2 /* avatar_vip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar_vip@2x.png"; sourceTree = "<group>"; };
 		6D3AC50F1FAAF82100C0BDE2 /* avatar_vip@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar_vip@3x.png"; sourceTree = "<group>"; };
+		6D3AC5121FAAFA3900C0BDE2 /* avatar_default_big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar_default_big@2x.png"; sourceTree = "<group>"; };
+		6D3AC5131FAAFA3A00C0BDE2 /* avatar_default_big@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar_default_big@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +80,9 @@
 		6D3AC5051FAAF62000C0BDE2 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				6D3AC5121FAAFA3900C0BDE2 /* avatar_default_big@2x.png */,
+				6D3AC5131FAAFA3A00C0BDE2 /* avatar_default_big@3x.png */,
 				6D3AC50C1FAAF6C900C0BDE2 /* cat.jpeg */,
-				6D3AC5071FAAF62000C0BDE2 /* icon@2x.png */,
-				6D3AC5081FAAF62000C0BDE2 /* icon@3x.png */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -150,10 +150,10 @@
 				6D3AC4FA1FAAF3E700C0BDE2 /* Assets.xcassets in Resources */,
 				6D3AC5101FAAF82200C0BDE2 /* avatar_vip@2x.png in Resources */,
 				6D3AC50D1FAAF6C900C0BDE2 /* cat.jpeg in Resources */,
+				6D3AC5141FAAFA3A00C0BDE2 /* avatar_default_big@2x.png in Resources */,
 				6D3AC5111FAAF82200C0BDE2 /* avatar_vip@3x.png in Resources */,
-				6D3AC50B1FAAF62000C0BDE2 /* icon@3x.png in Resources */,
 				6D3AC4F81FAAF3E700C0BDE2 /* Main.storyboard in Resources */,
-				6D3AC50A1FAAF62000C0BDE2 /* icon@2x.png in Resources */,
+				6D3AC5151FAAFA3A00C0BDE2 /* avatar_default_big@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
